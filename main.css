@@ -1,0 +1,165 @@
+/* ---------------About page styles---------------*/
+body.about-page {
+    margin: 0%;
+    font-family: 'Roboto,san-serif'
+}
+
+#profile-image {
+    width: 300px;
+    border-radius: 150px;
+}
+
+.hero-section {
+    background-color: #0a9396;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+.Designation {
+    font-style: italic;
+}
+
+.spaced-container {
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 70px;
+}
+
+.about-section {
+    background-color: #94d2bd;
+}
+
+.about-content {
+    font-style: italic;
+    line-height: 27px;
+}
+.movie-list-item, .book-list-item, .food-list-item, .place-list-item{
+    display:inline-block;
+    margin: 10px;
+}
+
+.movie-poster, .book-poster, .food-poster, .place-poster {
+    height: 300px;
+    width: 300px;
+}
+
+.movie-name, .book-name, .food-name, .place-name{
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+.education-table ,tr,td,th{
+    border:1px solid black;
+    width: 500px;
+    text-align: left;
+}
+.favourite-movies ul {
+    display: flex;
+    text-align: center;
+    gap: 2px;
+}
+.favourite-books ul {
+    display: flex;
+    text-align: center;
+    gap: 2px;
+}
+.favourite-foods ul {
+    display: flex;
+    text-align: center;
+    gap: 2px;
+}
+.favourite-places ul {
+    display: flex;
+    text-align: center;
+    gap: 2px;
+}
+/* -----------home page styles---------- */
+.hero-heading {
+    font-size: 50px;
+}
+body.home-page {
+    padding:25px;
+    background-color: #005f73 ;
+    color: white;
+    text-align: center;
+}
+.about-me-link:hover {
+    font-size:25px ;
+    background-color: white;
+    color:#0a9396
+}
+.about-me-link {
+    color: white;
+    font-size: 20px;
+    border:3px solid white;
+    padding: 5px;
+    margin: 70px;
+    text-decoration: none;
+}
+/*------------profile page styles------------*/
+.dharani-profile-photo {
+    border-radius: 75px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top:-75px;
+    border:5px solid grey;
+}
+.hero-image {
+    width:3000px;
+}
+.profile-hero-section {
+    height: 200px;
+    overflow: hidden;
+}
+.photo-profile-details {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.profile-body {
+font-family:'Noto Sans',sans-serif
+}
+.name-section .name {
+    font-size:26px;
+
+}
+.name-section .about-title {
+    font-size:16px;
+}
+.mid-section {
+    display: flex;
+    justify-content:center ;
+    gap: 20px;
+}
+.tabs-link-list{
+    list-style-type: none;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.tabs-link-list a {
+    text-decoration: none;
+    color:#84a59d;
+}
+.tabs-link-list li {
+    border: 1px solid #84a59d;
+    padding: 10px;
+}
+.tabs-link-list li.selected {
+    background-color:#f28482 ;
+}
+.tabs-link-list li.selected a {
+    color: white;
+}
+.main-section, .name-section{
+    width: 500px;
+}
+.main-section dt {
+    font-weight: bold;
+}
+.about-me-row {
+    display: flex;
+    border-bottom: 2px solid lightgrey;
+}
